@@ -11,5 +11,5 @@
     <padding><Insets top="25" right="25" bottom="10" left="25"/></padding>
 
     <Text text="Five Buttons" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
-
+    <Button text="Time" GridPane.columnIndex="0" GridPane.rowIndex="4" onAction="#time"/>
 </GridPane>
