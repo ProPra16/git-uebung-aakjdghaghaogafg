@@ -25,7 +25,5 @@ public class FiveButtons extends Application {
         primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.show();
 
-        Button buttond=new Button();
-        buttond.setText("blau machen");
     }
 }

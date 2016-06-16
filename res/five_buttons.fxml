@@ -12,4 +12,7 @@
 
     <Text text="Five Buttons" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
 
+    <Button fx:id="dbutton" text="blau" GridPane.columnIndex="3" GridPane.rowIndex="3" onAction="#farbe"/>
+
+
 </GridPane>
