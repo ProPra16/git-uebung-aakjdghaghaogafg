@@ -13,7 +13,16 @@
         <Insets top="25" right="25" bottom="10" left="25"/>
     </padding>
 
-    <Text text="Five Buttons" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <HBox alignment="CENTER"
+          GridPane.columnIndex="5" GridPane.rowIndex="5">
+        <Button text="kill program"
+                onAction="#handlekillbutton"/>
+    </HBox>
+
+
+    <padding>
+        <Insets top="25" right="25" bottom="10" left="25"/>
+    </padding>
 
     <HBox alignment="CENTER"
           GridPane.columnIndex="0" GridPane.rowIndex="1">
@@ -25,4 +34,7 @@
           visible="false"
           GridPane.columnIndex="0" GridPane.rowIndex="2"/>
 
+    <Text text="Five Buttons" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <Button text="Time" GridPane.columnIndex="0" GridPane.rowIndex="4" onAction="#time"/>
+    <Text fx:id="time" GridPane.columnIndex="0" GridPane.rowIndex="5"/>
 </GridPane>
