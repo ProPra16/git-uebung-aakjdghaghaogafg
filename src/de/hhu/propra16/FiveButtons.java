@@ -6,6 +6,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.awt.*;
+
 /**
  * Created by Tobias Witt on 06.06.16.
  */
@@ -22,5 +24,8 @@ public class FiveButtons extends Application {
         primaryStage.setTitle("Five Buttons");
         primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.show();
+
+        Button buttond=new Button();
+        buttond.setText("blau machen");
     }
 }
